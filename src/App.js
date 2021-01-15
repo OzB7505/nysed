@@ -11,6 +11,15 @@ function App() {
       <Navbar/>
       <div className="container">
         <div className="row">
+            <SchoolCard 
+            name ={data[0].ENTITY_NAME}
+            />
+            <SchoolCard 
+            name ={data[1].ENTITY_NAME}
+            />
+            <SchoolCard 
+            name ={data[2].ENTITY_NAME}
+            />
 
         </div>
       </div>
